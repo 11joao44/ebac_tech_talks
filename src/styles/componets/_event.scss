@@ -3,21 +3,22 @@
 .event {
     padding: 80px 0;
     
-    &--frontend {
-        background-image: linear-gradient(variables.$blue1, variables.$blue2);
+    &--sobre{
+        background-image: linear-gradient(variables.$color1, variables.$color2);
     }
 
-    &--ui-ux {
-        background-image: linear-gradient(variables.$blue2, variables.$pink);
+    &--cardapio {
+        background-image: linear-gradient(variables.$color2, variables.$color3);
     }
 
-    &--data-science {
-        background-image: linear-gradient(variables.$pink, variables.$yellow);
+    &--Atrações {
+        background-image: linear-gradient(variables.$color3, variables.$color2);
     }
 
-    &--backend {
-        background-image: linear-gradient(variables.$yellow, variables.$pink);
+    &--promoção {
+        background-image: linear-gradient(variables.$color2, variables.$color1);
     }
+
 
     &--image-left {
         .container {
@@ -31,7 +32,17 @@
     }
 
     &__image {
-        max-width: 360px;
+        max-width: 350px;
+        max-height: 350px;
+        border-radius: 10px;
+    }
+
+    &__promo {
+        margin-left: 8%;
+        background-color: #ffffff06;
+        padding: 50px;
+        text-align: center;
+        border-radius: 20px;
     }
 
     &__details {

@@ -5,6 +5,7 @@
     background-color: #fff;
     display: flex;
     justify-content: space-between;
+    border-radius: 4px;
     
     &__infos {
         display: flex;
@@ -16,6 +17,7 @@
 
             b {
                 font-size: 18px;
+                margin-bottom: 5px;
                 display: block;
                 color: variables.$secondaryTextColor;
             }
